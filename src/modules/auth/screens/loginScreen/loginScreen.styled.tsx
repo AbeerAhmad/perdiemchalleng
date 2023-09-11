@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 export const StyledScreenView = styled.View``;
 
 export const StyledHeaderSection = styled.View`
-  height: 150;
+  height: 150px;
   background-color: ${props => props.theme.Primary.Fill};
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -22,7 +22,7 @@ export const StyledGoogleButton = styled.Pressable`
 
 export const StyledWelcome = styled.Text`
   font-weight: 700;
-  font-size: 36;
+  font-size: 36px;
   color: ${props => props.theme.Primary.Text};
 `;
 export const StyledErrorText = styled.Text`

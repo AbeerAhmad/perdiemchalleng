@@ -33,8 +33,8 @@ export const SectionHeading = styled.Text`
 
 export const StyledButton = styled.Pressable`
 position: absolute;
-bottom: 20;
-right:20;
+bottom: 20px;
+right:20px;
 background-color: ${props => props.theme.Primary.Fill};
 padding: 12px;
 border-radius: 20px;

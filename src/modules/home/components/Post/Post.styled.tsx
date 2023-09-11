@@ -7,12 +7,12 @@ export const StyledPost = styled.Pressable`
   margin-horizontal: 16px;
   margin-vertical: 8px;
   padding: 8px;
-  min-height: 80;
+  min-height: 80px;
   justify-content: flex-end;
 `;
 
 export const StyledTitle = styled.Text`
-  font-size: 16;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
 `;

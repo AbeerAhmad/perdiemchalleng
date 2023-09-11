@@ -10,7 +10,7 @@ export const StyledTextInput = styled.TextInput`
 `;
 
 export const StyledLabel = styled.Text`
-  font-size: 14;
-  margin-bottom: 8;
+  font-size: 14px;
+  margin-bottom: 8px;
   font-weight: 300;
 `;
