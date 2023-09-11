@@ -1,5 +1,19 @@
 
 
+
+## Stack 
+
+1. React Native 
+2. redux toolkit (state management)
+3. redux persist (persist state)
+4. Styled Components (styling library)
+5. Gorham/bottomsheet 
+6. axios (Http requests)
+
+
+## Video Demo 
+https://wetransfer.com/downloads/a92c305161a8027e415037849126c0b820230911045210/1959b8
+
 ## Step 1: Start the Metro Server
 
 Installation 
