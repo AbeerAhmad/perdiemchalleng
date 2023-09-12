@@ -1,5 +1,5 @@
-import {createAsyncThunk} from '@reduxjs/toolkit';
-import {apiService} from '../../../shared/services/api-services';
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import { apiService } from '../../../shared/services/api-services';
 
 export const fetchTodos = createAsyncThunk(
   'home/fetchTodos',

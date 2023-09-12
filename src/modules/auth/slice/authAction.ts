@@ -11,8 +11,7 @@ export const loginAsync = createAsyncThunk<
   }
 >('auth/login', async (data, thunkAPI) => {
   try {
-    const list = thunkAPI.getState().authSlice.userList;
-    return await apiService.login(data, list);
+    return await apiService.login(data);
   } catch (error: any) {
     return thunkAPI.rejectWithValue(error.message || 'An error occurred.');
   }

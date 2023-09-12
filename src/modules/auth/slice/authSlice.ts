@@ -7,7 +7,6 @@ export interface UserSliceState {
   isLogin: boolean;
   loading: boolean;
   error: string;
-  userList: UserState[];
 }
 const initialState: UserSliceState = {
   user: {
@@ -16,21 +15,6 @@ const initialState: UserSliceState = {
     email: '',
     photo: '',
   },
-  userList: [
-    {
-      name: 'Abeer Ahmad',
-      password: '12345678',
-      email: 'test@gmail.com',
-      photo: 'https://picsum.photos/200',
-    },
-    {
-      name: 'Abeer Ali',
-      password: '12345678',
-      email: 'user@gmail.com',
-      photo: 'https://picsum.photos/200',
-    },
-  ],
-
   isLogin: false,
   loading: false,
   error: '',

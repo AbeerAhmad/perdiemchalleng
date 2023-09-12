@@ -1,3 +1,10 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "compilerOptions": {
+      "types": ["reflect-metadata", "jest"],
+      "typeRoots": ["./types", "./node_modules/@types"]
+  }
+  ,
+  "extends": "@tsconfig/react-native/tsconfig.json",
+    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+
 }

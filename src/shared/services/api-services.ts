@@ -1,5 +1,6 @@
 import Axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { UserState } from '../../types/authTypes';
+import UserList from './user.json'
 
 class ApiService {
   private static instance: ApiService;
@@ -34,9 +35,9 @@ class ApiService {
   };
   public login = async (
     data: { email: string; password: string },
-    userList: UserState[],
+
   ): Promise<UserState> => {
-    const foundUser = userList.find(user => user.email?.toLowerCase() === data?.email?.toLowerCase());
+    const foundUser = UserList.find(user => user.email?.toLowerCase() === data?.email?.toLowerCase());
     if (!foundUser) {
       throw new Error('User not found! Please sign up');
     }
